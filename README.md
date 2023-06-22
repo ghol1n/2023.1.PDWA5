@@ -21,6 +21,33 @@ Etapa 13 - Criação de um componente de classe e entendimento de keys em listas
 Etapa 14 - Conclusão: O projeto foi concluído.
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
-- alteração xyz;
-- alteração xpto;
-- ...
+.add-task-container:
+  -margin foi alterado para padding: 20px 0 para adicionar espaço interno.
+  -display foi alterado para grid-template-columns: 3fr 1fr para criar uma grade com duas colunas.
+  -gap foi adicionado com o valor 10px para adicionar espaçamento entre as colunas.
+
+.add-task-input:
+  -border-radius foi alterado para 10px para tornar os cantos mais arredondados.
+  -border foi alterado para 2px solid #888 para adicionar uma borda sólida com uma cor cinza.
+  -background-color foi alterado para #fff para ter um fundo branco.
+  -color foi alterado para #333 para ter uma cor de texto mais escura.
+  -font-size foi alterado para 18px para aumentar o tamanho do texto.
+
+.add-task-button-container:
+  -margin-left foi alterado para 0 para remover a margem esquerda.
+  -flex foi alterado para none para desabilitar a capacidade de crescimento flexível.
+
+.button:
+  -background-color foi alterado para #008080 para ter um fundo verde azulado.
+  -height foi alterado para 50px para aumentar a altura do botão.
+  -border-radius foi alterado para 10px para tornar os cantos mais arredondados.
+  -color foi alterado para #fff para ter uma cor de texto branca.
+  -font-weight foi alterado para normal para usar uma fonte não negritada.
+  -border-color foi alterado para #008080 para ter uma borda correspondente à cor de fundo.
+  -transition foi alterado para all 0.3s ease para suavizar a transição do botão.
+
+.task-container:
+  -background-color foi alterado para #fff para ter um fundo branco.
+  -margin foi alterado para 10px 0 para adicionar um espaçamento vertical menor.
+  -padding foi alterado para 20px 25px para aumentar o espaçamento interno.
+  -color foi alterado para #333 para ter uma cor de texto mais escura.
