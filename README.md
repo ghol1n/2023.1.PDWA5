@@ -19,7 +19,7 @@ Etapa 11 - Armazenamento das tarefas da API: As tarefas obtidas da API foram arm
 Etapa 12 - Correção do componente Task e comparação de componentes funcionais e de classe: O componente Task foi corrigido e foi feita uma comparação entre componentes funcionais e de classe.
 Etapa 13 - Criação de um componente de classe e entendimento de keys em listas: Foi criado um componente de classe e introduzido o conceito da importância das keys em listas no React.
 Etapa 14 - Crição da validação do campo do input para não aceitar dados vazios.
-Etapa 14 - Conclusão: O projeto foi concluído.
+Etapa 15 - Conclusão: O projeto foi concluído.
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
 .add-task-container:
